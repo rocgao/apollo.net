@@ -14,9 +14,14 @@ namespace ApolloDemo
         public ApolloConfigDemo()
         {
             config = ConfigService.GetAppConfig();
+<<<<<<< HEAD
             anotherConfig = ConfigService.GetConfig("FX.apollo");
             config.ConfigChanged += new ConfigChangeEvent(OnChanged);
             anotherConfig.ConfigChanged += new ConfigChangeEvent(OnChanged);
+=======
+            //config = ConfigService.GetConfig("roc-dev.super8");
+            //config.ConfigChanged += new ConfigChangeEvent(OnChanged);
+>>>>>>> 2661590
         }
 
         private string GetConfig(string key)
