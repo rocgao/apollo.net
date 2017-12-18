@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("Apollo")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyDescription("Apollo Client")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Ctrip")]
 [assembly: AssemblyProduct("Ctrip.Framework.Apollo")]

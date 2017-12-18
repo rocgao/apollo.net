@@ -16,7 +16,8 @@ namespace ApolloDemo
         public ApolloConfigDemo()
         {
             config = ConfigService.GetAppConfig();
-            config.ConfigChanged += new ConfigChangeEvent(OnChanged);
+            //config = ConfigService.GetConfig("roc-dev.super8");
+            //config.ConfigChanged += new ConfigChangeEvent(OnChanged);
         }
 
         private string GetConfig(string key)
